@@ -34,6 +34,7 @@ This folder needs to be hosted on a publicly accessible URL:
 Users will be redirected to `reset-password.html` when they click the password reset link in their email.
 
 The page automatically:
+
 1. Extracts the reset tokens from the URL
 2. Verifies the tokens with Supabase
 3. Shows appropriate options (mobile app or web form)
@@ -43,6 +44,7 @@ The page automatically:
 ## Customization
 
 You can customize:
+
 - Colors in `styles.css` (CSS variables)
 - Logo image path in `reset-password.html`
 - Success/error messages
